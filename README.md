@@ -20,11 +20,10 @@ To run this ChatBot locally, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/your-chatbot-repo.git
+# 1. Install the required dependencies:
+!pip install openai streamlit streamlit-chat
 
-1. Install the required dependencies:
-pip install openai streamlit streamlit-chat
+# 2. Set up your OpenAI API key by creating a Streamlit secret named "api_secret" in your Streamlit secrets.toml file:
 
-2. Set up your OpenAI API key by creating a Streamlit secret named "api_secret" in your Streamlit secrets.toml file:
-
-3. Run the ChatBot app:
-streamlit run chatbot.py
+# 3. Run the ChatBot app:
+!streamlit run chatbot.py
